@@ -1,15 +1,16 @@
 {
-  "name": "semantic-ui-offline",
+  "name": "@irohalab/semantic-ui",
   "version": "2.4.1",
   "title": "Semantic UI",
   "description": "CSS Only distribution of Semantic UI, with fonts.",
   "homepage": "https://arthurlacoste.com",
   "author": "Arthur Lacoste <arthak@gmail.com>",
+  "maintainers": ["Everett Summer"],
   "license": "MIT",
   "main": "semantic.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/arthurlacoste/semantic-ui-offline.git"
+    "url": "https://github.com/irohalab/semantic-ui-offline"
   },
   "scripts": {
     "start": "rm -rf node_modules/semantic-ui-css && npm install semantic-ui-css && node bin/recreate.js"
